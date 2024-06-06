@@ -59,11 +59,11 @@ class App extends Component {
               :
               <div className="content">
                 <Switch>
-                  <Route exact path="/">
-                    <Spekt />
-                  </Route>
                   <Route path="/admin">
                     <Admin />
+                  </Route>
+                  <Route path="/">
+                    <Spekt />
                   </Route>
                 </Switch>
               </div>
